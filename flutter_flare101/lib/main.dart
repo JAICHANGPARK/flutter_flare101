@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flare_flutter/flare_actor.dart';
+import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
@@ -38,10 +38,11 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Flare 101"),
       ),
       body: Center(
-        child: FlareActor("assets/hello_flare.flr",
-        animation: "circular",
-        fit: BoxFit.contain,)
-      ),
+          child: FlareActor(
+        "assets/hello_flare.flr",
+        animation: "Untitled",
+        fit: BoxFit.contain,
+      )),
 //      body: Center(
 //
 //        child: Column(
